@@ -1,6 +1,6 @@
-# RSU Deployment with K-center Approximation
+﻿# RSU Deployment with K-center Approximation
 
-This repository is a cleaned-up version of a course project for `Advanced Algorithms for Communications and Information Security`.
+This repository contains a course project for `Advanced Algorithms for Communications and Information Security`.
 
 It explores a practical question: how to place a limited number of Roadside Units (RSUs) so that service coverage is as balanced as possible. The main algorithmic focus is the K-center problem, using Gonzalez's greedy 2-approximation as the core method.
 
@@ -15,19 +15,14 @@ It explores a practical question: how to place a limited number of Roadside Unit
   - A random baseline
 - Optional CSV result export for local inspection
 
-## What is not included
-
-- Course report PDF
-- Presentation PDF
-- Original Google Colab notebook
-
-Those files are intentionally excluded to keep the public repository focused, smaller, and lower risk from a privacy / disclosure perspective.
-
 ## Repository files
 
 - `rsu_deployment_k_center.py`: main script
+- `Optimizing_RSU_Deployment_Using_K_center_Approximation_Techniques.ipynb`: original working notebook
 - `requirements.txt`: Python dependencies
-- `.gitignore`: excludes local caches, generated outputs, notebooks, and course artifacts
+- `.gitignore`: excludes local caches, generated outputs, and course PDFs
+
+The notebook in this repository is the original working notebook developed in Google Colab, while the Python script is a cleaned repository version for easier reading and execution.
 
 ## How to run
 
@@ -65,15 +60,3 @@ Generated files will go into `outputs/`, which is ignored by Git.
 - This is a course-project algorithm experiment, not a production deployment system.
 - The implementation is meant to demonstrate modeling, approximation algorithms, and experiment setup.
 - It does not include operational constraints such as RSU hardware limits, traffic demand modeling, radio propagation, or deployment cost optimization beyond the simple choice of `k`.
-
-## Privacy and security posture
-
-- No report PDF, presentation PDF, or notebook metadata is included.
-- No personal student ID, local file paths, private cloud links, credentials, or tokens are intended to be present in this repository.
-- OpenStreetMap data is fetched at runtime; no bundled map dump or sensitive local dataset is included.
-
-## Suggested résumé / portfolio framing
-
-If you reference this project in a résumé or interview, a plain description like this is accurate:
-
-`Implemented and evaluated K-center-based heuristics for RSU placement, including synthetic and road-network experiments using Python, NetworkX, and OSMnx.`

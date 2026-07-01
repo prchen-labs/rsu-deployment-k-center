@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -14,7 +14,6 @@ venv/
 env/
 
 # Jupyter / Colab artifacts
-*.ipynb
 .ipynb_checkpoints/
 
 # Generated outputs
