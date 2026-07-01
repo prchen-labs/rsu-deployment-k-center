@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab artifacts
+*.ipynb
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/
+*.csv
+*.png
+
+# Local OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Original course artifacts kept out of the public repo
+*.pdf
